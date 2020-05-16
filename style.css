@@ -37,28 +37,29 @@ p {font-family:'Chivo' sans-serif;
 font-size: 20px;}
 
 .cards-section{
-    
     background-color: rgb(255,255,255);
     padding: 5px 50px;
 }
 
 .container{
+	width:80%;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 100px;
-    -ms-grid-column-align: center;
-    -ms-grid-row-align: center;
     padding: 50px;
     background-color: rgb(255,255,255);
     margin: auto;
+    text-align: center;
 }
+
 
 .cards-container {
     text-align: center;
-    padding: 25px;
+    padding: auto;
     background-color: white;
     box-shadow: 0 0 16px;
-    width: 250px;
+    width: auto;
+    object-fit: cover;
 }
 
 .cards-container img{
